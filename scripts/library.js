@@ -233,7 +233,6 @@ module.exports = {
             }
             //end
         });
-        const expblock = extendContent(type, name, obj);
         expblock.maxExp = expblock.getRequiredEXP(expblock.maxLevel);
         for(var i = 0; i < expblock.expFields.length; i++) {
             var tobj = expblock.expFields[i];
@@ -493,7 +492,7 @@ module.exports = {
         });
         //Extend Building
         expblock.buildType = ent => {
-            ent = extendContent(build, expblock, clone(objb));
+            ent = extend(build, expblock, clone(objb));
             ent._exp = 0;
             ent._changedVal = false;
             ent._checked = true;
