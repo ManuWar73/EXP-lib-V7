@@ -20,7 +20,6 @@ const arc = lib.extend(ItemTurret, ItemTurret.ItemTurretBuild, "arc", {
   //The original Block extension object.
   init(){
 		this.super$init();
-		this.shootType(super.ShootType);
 	}
 }, {
   //The original Building extension object.
