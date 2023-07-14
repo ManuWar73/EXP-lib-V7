@@ -3,7 +3,7 @@
 	"name": "exp-lib",
 	"displayName": "[#84ff00]EXP Library[]",
 	"author": "[royal]sk7725[]",
-	"description": "EXP Library for 6.0!",
+	"description": "EXP Library updated to V7!",
 	"version": "3.0",
-	"minGameVersion": 110
+	"minGameVersion": 145
 }
