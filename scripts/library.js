@@ -61,7 +61,7 @@ const Integer = java.lang.Integer;
 module.exports = {
     upgradeFx: upgradeBlockFx,
     sparkleFx: sparkleFx,
-    expblock = extend(type, build, name, obj, objb){
+    expblock = extendContent(type, build, name, obj, objb){
         if(obj == undefined) obj = {};
         if(objb == undefined) objb = {};
         obj = Object.assign({
